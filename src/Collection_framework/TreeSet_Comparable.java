@@ -9,7 +9,7 @@ class TreeSet_Comparable
     void main (String[] args) {
         TreeSet t=new TreeSet (); //default natural sorting order
         t.add ("B");
-        t.add ("Z"); //"z".compareTo("B");  =ve
+        t.add ("Z"); //"z".compareTo("B");  +ve
         t.add ("A"); //"A".compareTo("B"); -ve
         System.out.println (t);
     }
